@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+	<book_catalog> 
+		<book id="ID1" isbn="Не обязательная информация, тестирую ее" year="1973" issue="original">
+			<authors>
+				<author>Н.Островский</author>
+			</authors>
+			<title>Как закалялась сталь</title>
+			<publishing>Завод книг в СССР</publishing>
+			<annotation>Очень интресная и полезная книга</annotation>
+		</book>
+	</book_catalog>
+	<author_catalog>
+		<author_book idref="ID1">Н.Островский</author_book>
+	</author_catalog>
+</library>
